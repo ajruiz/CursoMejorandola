@@ -1,0 +1,25 @@
+ul {
+    padding-left: 10px;
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+ul li {
+    padding-left: 12px;
+    background: url(bullet.png) 0em 0.3em no-repeat;
+    margin-bottom: 2em;
+}
+
+#menu ul li a {
+    color: #ccc;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 10px 10px 20px;
+}
+
+#menu ul li a:hover {
+    background: #000;
+    border-left: 10px solid #333;
+    color: #fff;
+}
