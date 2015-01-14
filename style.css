@@ -185,8 +185,9 @@ nav ul li a
 {
 	font-size: 1.2em;
 	font-style: italic;
+	margin-bottom: 0;
+	padding: 1em 1em 0 0;
 }
-
 #contenido .item .titulo_item a
 {
 	color: #444;
@@ -203,4 +204,10 @@ nav ul li a
 	position: absolute;
 	top: 100%;
 	width: 90%;
+}
+
+#contenido .item .votacion .comentarios_item,
+#contenido .item .votacion .guardar_item
+{
+	float: right;
 }
