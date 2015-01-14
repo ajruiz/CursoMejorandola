@@ -9,17 +9,25 @@ ul li {
     background: url(bullet.png) 0em 0.3em no-repeat;
     margin-bottom: 2em;
 }
+#lista
+{
+	border: 3px solid red;
+	margin-bottom: 3px;
+	width: 300px;
+	position: absolute;
 
-#menu ul li a {
-    color: #ccc;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: block;
-    padding: 10px 10px 10px 20px;
 }
 
-#menu ul li a:hover {
-    background: #000;
-    border-left: 10px solid #333;
-    color: #fff;
+#cosa
+{
+	border: 3px solid black;
+	width: 300px;
+	float: right; 
+}
+
+#beso
+{
+	border: 3px solid blue;
+	width: 300px;
+	margin: auto;
 }
